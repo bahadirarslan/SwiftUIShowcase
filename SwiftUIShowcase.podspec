@@ -4,7 +4,8 @@ Pod::Spec.new do |s|
     s.summary          = 'A SwiftUI implementation of MaterialShowcase'
     s.description      = <<-DESC
                         SwiftUIShowcase is a SwiftUI library that helps you highlight 
-                      specific views in your app for feature discovery and onboarding.
+                        specific views in your app for feature discovery and onboarding.
+                        DESC
     s.homepage         = 'https://github.com/bahadirarslan/SwiftUIShowcase'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'bahadiraslan' => 'bahadirarslan@gmail.com' }
