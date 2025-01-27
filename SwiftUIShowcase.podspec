@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'SwiftUIShowcase'
-    s.version          = '0.1.2'
+    s.version          = '0.1.3'
     s.summary          = 'A SwiftUI implementation of MaterialShowcase'
     s.description      = <<-DESC
                         SwiftUIShowcase is a SwiftUI library that helps you highlight 
