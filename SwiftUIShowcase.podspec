@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
     s.name             = 'SwiftUIShowcase'
     s.version          = '0.1.0'
-    s.summary          = 'SwiftUI için özellik tanıtım (showcase) kütüphanesi'
+    s.summary          = 'A SwiftUI implementation of MaterialShowcase'
     s.description      = <<-DESC
-                        SwiftUI uygulamalarında yeni özellikleri kullanıcılara tanıtmak için kullanılan bir kütüphane.
-                        DESC
-    s.homepage         = 'https://github.com/KULLANICI_ADI/SwiftUIShowcase'
+                        SwiftUIShowcase is a SwiftUI library that helps you highlight 
+                      specific views in your app for feature discovery and onboarding.
+    s.homepage         = 'https://github.com/bahadirarslan/SwiftUIShowcase'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'ADINIZ' => 'EMAIL@ADRESINIZ.com' }
-    s.source           = { :git => 'https://github.com/KULLANICI_ADI/SwiftUIShowcase.git', 
+    s.author           = { 'bahadiraslan' => 'bahadirarslan@gmail.com' }
+    s.source           = { :git => 'https://github.com/bahadirarslan/SwiftUIShowcase.git', 
                           :tag => s.version.to_s }
     
     s.ios.deployment_target = '14.0'
