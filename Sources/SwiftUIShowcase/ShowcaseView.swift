@@ -1,5 +1,4 @@
 import SwiftUI
-import SwiftUIShowcase
 
 @available(iOS 15.0, macOS 12.0, *)
 public struct ShowcaseView<Content: View>: View {
