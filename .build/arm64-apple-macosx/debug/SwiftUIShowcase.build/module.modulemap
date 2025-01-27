@@ -1,0 +1,4 @@
+module SwiftUIShowcase {
+    header "/Users/bahadirarslan/Development/SwiftUI/SwiftUIShowcase/.build/arm64-apple-macosx/debug/SwiftUIShowcase.build/SwiftUIShowcase-Swift.h"
+    requires objc
+}

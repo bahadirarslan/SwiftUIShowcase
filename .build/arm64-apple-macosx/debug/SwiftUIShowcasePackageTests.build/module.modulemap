@@ -1,0 +1,4 @@
+module SwiftUIShowcasePackageTests {
+    header "/Users/bahadirarslan/Development/SwiftUI/SwiftUIShowcase/.build/arm64-apple-macosx/debug/SwiftUIShowcasePackageTests.build/SwiftUIShowcasePackageTests-Swift.h"
+    requires objc
+}
