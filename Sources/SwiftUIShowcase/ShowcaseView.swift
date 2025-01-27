@@ -1,5 +1,6 @@
 import SwiftUI
 
+@available(iOS 15.0, macOS 12.0, *)
 public struct ShowcaseView<Content: View>: View {
     private let content: Content
     @Binding public var currentShowcaseIndex: Int?

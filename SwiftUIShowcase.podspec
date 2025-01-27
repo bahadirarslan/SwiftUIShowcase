@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/bahadirarslan/SwiftUIShowcase.git', 
                           :tag => s.version.to_s }
     
-    s.ios.deployment_target = '14.0'
+    s.ios.deployment_target = '15.0'
     s.macos.deployment_target = '12.0'
     s.swift_version = '5.7'
     
