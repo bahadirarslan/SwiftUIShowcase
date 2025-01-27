@@ -28,13 +28,16 @@ final class ShowcaseViewTests: XCTestCase {
     }
 
     func testShowcaseItemCustomization() {
+        var config = ShowcaseItem.Configuration()
+        config.titleFont = .title
+        config.titleColor = .red
+        config.backgroundPromptColor = .blue
+        
         let item = ShowcaseItem(
             anchor: Anchor<CGRect>(value: .zero),
             title: "Test",
             description: "Description",
-            titleFont: .title,
-            titleColor: .red,
-            backgroundPromptColor: .blue
+            configuration: config
         )
 
         XCTAssertEqual(item.titleFont, .title)
